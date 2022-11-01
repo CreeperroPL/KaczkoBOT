@@ -5,7 +5,7 @@ module.exports = {
     async execute(client, msg, args) {
         const embed = new MessageEmbed()
         .setTitle("Polecenia")
-        .setDescription("**COMMING SOON!**")
+        .setDescription("**Pracuje nad komemdami**")
         .setColor("#0af50a")
         .setFooter({text: "Created By CREPERRO"})
         msg.channel.send({embeds: [embed]});
