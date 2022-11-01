@@ -5,7 +5,7 @@ module.exports = {
     async execute(client, msg, args) {
         const embed = new MessageEmbed()
         .setTitle("Giveaway")
-        .setDescription("**Wygrana: TEST**")
+        .setDescription("**Wygrana: NIC**")
         .setColor("#0af50a")
         .setFooter({text: "Giveaway"})
         msg.channel.send({embeds: [embed]});
